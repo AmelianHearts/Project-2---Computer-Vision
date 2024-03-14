@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: animesh-shastry
+  project: sard_yolo
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/animesh-shastry/sard_yolo/dataset/9
